@@ -1,0 +1,24 @@
+{
+  "name": "meteoros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-livereload-plugin": "^2.2.0"
+  },
+  "devServer": {
+    "port": 3001
+  },
+  "dependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}
