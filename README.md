@@ -1,3 +1,3 @@
 Sketches
 
-Area de prototipagem, teste e programas diversos
+Area de anotacoes, prototipagem, teste e programas diversos
