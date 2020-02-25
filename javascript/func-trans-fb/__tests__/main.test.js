@@ -1,7 +1,7 @@
 const bank = require('../bank')
 
 
-describe('testing inner private functions', ()=>{
+describe('testing inner private functions  __priv namespace', ()=>{
 
 
     it('should test  inner account tax',  () => {
