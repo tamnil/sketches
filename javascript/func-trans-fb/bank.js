@@ -20,8 +20,7 @@ const payService = (accountType)=>tax => (customerId) => (serviceValue) => {
     };
 }
 const bank = (tax)=>(req, res) => {
-    const body = req.body
-    return payService(body.accountType)(tax)(body.id)(body.value)
+    return payService(req.body.accountType)(tax)(req.body.id)(req.body.value)
 };
 
 // [accountType]
