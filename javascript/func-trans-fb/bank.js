@@ -18,12 +18,15 @@ const payService = (accountType)=>tax => (customerId) => (serviceValue) => {
         accountId: customerAccount.id,
         taxValue: account(accountType)(tax)(serviceValue)(customerAccount.currentValue)
     };
-
 }
-
+const bank = (tax)=>(req, res) => {
+    const body = req.body
+    return payService(body.accountType)(tax)(body.id)(body.value)
+};
 
 // [accountType]
 module.exports = {
+    bank,
     currentAccount,
     savingsAccount,
     __priv:{
