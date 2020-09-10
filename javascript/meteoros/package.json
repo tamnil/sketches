@@ -11,14 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync-webpack-plugin": "^2.2.2",
-    "webpack-dev-server": "^3.8.0",
-    "webpack-livereload-plugin": "^2.2.0"
+    "webpack-dev-server": "^3.11.0",
+    "webpack-livereload-plugin": "^2.3.0"
   },
   "devServer": {
     "port": 3001
   },
   "dependencies": {
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.8"
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
